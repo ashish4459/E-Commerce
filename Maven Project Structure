@@ -1,0 +1,20 @@
+src/
+|-- main/
+|   |-- java/
+|   |   |-- com.swiftcart/
+|   |       |-- controller/
+|   |           |-- ProductServlet.java
+|   |           |-- CartServlet.java
+|   |       |-- model/
+|   |           |-- Product.java
+|   |           |-- Cart.java
+|   |       |-- dao/
+|   |           |-- ProductDAO.java
+|   |       |-- util/
+|   |           |-- DBConnection.java
+|   |-- webapp/
+|       |-- index.jsp
+|       |-- cart.jsp
+|       |-- WEB-INF/
+|           |-- web.xml
+pom.xml

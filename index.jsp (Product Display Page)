@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SwiftCart - Products</title>
+</head>
+<body>
+    <h1>Welcome to SwiftCart</h1>
+    <h2>Available Products</h2>
+    <table border="1">
+        <tr>
+            <th>Product ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+        <c:forEach var="product" items="${products}">
+            <tr>
+                <td>${product.id}</td>
+                <td>${product.name}</td>
+                <td>${product.price}</td>
+                <td><a href="cart?action=add&id=${product.id}">Add to Cart</a></td>
+            </tr>
+        </c:forEach>
+    </table>
+</body>
+</html>

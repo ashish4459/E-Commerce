@@ -1,0 +1,23 @@
+SwiftCart-Ecommerce-Platform/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com.swiftcart/
+│   │   │   │   ├── controller/
+│   │   │   │   ├── model/
+│   │   │   │   ├── dao/
+│   │   │   │   ├── util/
+│   │   ├── resources/
+│   │   │   ├── application.properties (if Spring Boot is used)
+│   ├── webapp/
+│   │   ├── index.jsp
+│   │   ├── cart.jsp
+│   │   ├── WEB-INF/
+│   │   │   ├── web.xml
+├── test/
+│   ├── com.swiftcart/
+│   │   ├── Unit tests here...
+├── database/
+│   ├── schema.sql
+├── README.md
+├── pom.xml
